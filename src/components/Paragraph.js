@@ -11,7 +11,7 @@ import PropTypes from 'prop-types';
 // had to change to export const as opposed to export default.
 
 
-export default function Paragraph( { Para: {id, title, classNameString}, onClickPara } ) {
+export default function Paragraph( { id, title, classNameString, padding, onClickPara } ) {
   return (
     <p className={classNameString} onClick={() => onClickPara(classNameString, id, title, classNameString)}>{title}</p>
   );

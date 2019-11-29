@@ -23,6 +23,6 @@ export const actions = {
 
 storiesOf('Paragraph', module)
     .addDecorator(withKnobs)
-    .add('hello', () => <Paragraph Para={object('Para', {...helloPara})}  {...actions} />)
+    .add('hello', () => <Paragraph id={number('ID', 3)} title={text('Title', 'Title inline')} classNameString={text('ClassName', 'hello-para-class')} {...actions} />)
     .add('goodbye', () => <Paragraph Para={object('Para', {...goodbyePara})}  {...actions} />)
     .add('maybe', () => <Paragraph Para={object('Para', {...maybePara})}  {...actions} />)
