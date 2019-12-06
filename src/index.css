@@ -18,3 +18,20 @@ p {
 .maybe-para-class {
   border: dashed orange 2px;
 }
+
+/* custom styles */
+.button {
+  display: block;
+  padding: 1em;
+  margin: 1em;
+}
+
+.primary-button {
+  background-color: green;
+  color: #fff;
+}
+
+.secondary-button {
+  background-color: orange;
+  color: #fff;
+}
