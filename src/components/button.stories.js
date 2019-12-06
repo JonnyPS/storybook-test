@@ -11,9 +11,10 @@ export default {
     component: Button,
 }
 
+
 const Basic = () => <Button className={"button"} id={"hello"} content={"some text for button here"}/>;
 const Primary = () => <Button className={"button primary-button"} id={"hello"} content={"some text for button here"}/>;
 const Secondary = () => <Button className={"button secondary-button"} id={"hello"} content={"some text for button here"}/>;
-const All = () => { return <div><Basic /> <Primary /> <Secondary /></div>};
+const All = () => <div><Basic /> <Primary /> <Secondary /></div>;
 
 export  {Basic, Primary, Secondary, All}; // export all components individually, and then export them all together
