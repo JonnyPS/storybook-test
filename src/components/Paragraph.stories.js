@@ -18,7 +18,8 @@ export const goodbyePara = new Para("2", 'Title for goodbye-para', 'goodbye-para
 export const maybePara = new Para(3, 'Title for maybe-para', 'maybe-para-class');
 
 export const actions = {
-  onClickPara: action('onClickPara'),
+    onClickPara: action('onClickPara'),
+    onClickButton: action('onClickButton'),
 };
 
 storiesOf('Paragraph', module)
